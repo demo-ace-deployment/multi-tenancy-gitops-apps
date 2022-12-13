@@ -51,3 +51,7 @@ resources:
  - tasks/resolve-props.yaml
 # - triggerbindings/ace-integration-server.yaml
 # - triggertemplates/ace-integration-server.yaml
+ - secrets/github-user-token-secret-cicd-acme.yaml
+ - secrets/gitops-repo-pk-secret-ace-config-at-github.yaml
+ - secrets/gitops-repo-pk-secret-ace-infra-at-github.yaml
+ - secrets/gitops-repo-pk-secret-multi-tenancy-gitops-apps-at-github.yaml
