@@ -21,9 +21,9 @@ spec:
           - name: is-infra-repo-url
             value: git@github.com:$(tt.params.git-org)/ace-infra.git
           - name: git-ops-repo-url
-            value: git@github.com:$(tt.params.git-org)/multi-tenancy-gitops-apps.git
+            value: git@github.com:demo-ace-deployment/multi-tenancy-gitops-apps.git
           - name: gitops-apps-repo-full-name
-            value: $(tt.params.git-org)/multi-tenancy-gitops-apps
+            value: demo-ace-deployment/multi-tenancy-gitops-apps
         pipelineRef:
           name: ace-integration-server
         serviceAccountName: pipeline
